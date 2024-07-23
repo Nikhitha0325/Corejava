@@ -1,0 +1,18 @@
+package com.siiiet.stringdemo;
+
+public class Stringdemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+String s=new String("hello");
+System.out.println(s);
+s=s.concat("welcome");
+System.out.println(s);
+System.out.println(s.length());
+System.out.println(s.indexOf("c"));
+System.out.println(s.charAt(4));
+System.out.println(s.toUpperCase());
+System.out.println(s.toLowerCase());
+	}
+
+}
